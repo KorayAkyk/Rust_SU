@@ -1,5 +1,8 @@
 
+fn isbig(input: String, taille: usize) -> bool{
 
+    
+}
 
 fn main() {
     let ricard = String::from("ricard!");
