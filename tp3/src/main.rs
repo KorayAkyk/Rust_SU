@@ -1,8 +1,8 @@
 
-fn isbig(input: String, taille: usize) -> bool{
-
-
-}
+fn isbig(_s: &String, _n: usize) -> bool {
+    let lasoeurdeclement = true;
+    lasoeurdeclement
+} 
 
 fn main() {
     let ricard = String::from("ricard!");
@@ -15,4 +15,11 @@ fn main() {
     println!("{}",vodka);
     println!("{}",biere);
     println!("{}",rhum);
+
+    let name = "guillaume".to_string();
+    println!("{}", isbig(&name, 10));
+    println!("{}", isbig(&name, 5));
+    
+    println!("{}",isbig(&"guillaume".to_string(), 10) == false);
+    
 }
