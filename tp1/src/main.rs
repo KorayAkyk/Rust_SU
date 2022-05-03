@@ -3,6 +3,8 @@ fn mad(a: i32, b: i32, c: i32) -> i32 {
 }
 
 fn sum_from_to(a: i32, b: i32) -> i32 {
+    //mut va servir a une variable d'etre affectable par une autre
+    
     let mut result = 0;
     let mut i = a;
     while i <= b {
@@ -72,7 +74,8 @@ match result
  *
  */
 
-fn division(a: i32, b: i32) -> Option<i32> {
+
+ fn division(a: i32, b: i32) -> Option<i32> {
     if b == 0 {
         None
     } else {
